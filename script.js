@@ -50,7 +50,7 @@ function initGame(e){
  setTimeout(()=>{
   if(corrects.length === word.length){
     //if user found all guesses
-    alert(`You found the word! ${word.toUpperCase()}`);
+    alert(`You found the word! ${word}.toUpperCase()`);
     randomWord();//to reset the game after alert
    }
   else if(maxGuesses<1){
